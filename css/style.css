@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  padding: 30px;
+}
+header nav {
+  text-align: right;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+header nav a {
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  color: aliceblue;
+  position: relative;
+  width: 100px;
+  height: 75px;
+  padding: auto;
+}
+header nav a:hover {
+  color: palevioletred;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=style.css.map */
